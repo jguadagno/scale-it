@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <LangVersion>default</LangVersion>
+        <Nullable>warnings</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="14.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Contacts.Domain\Contacts.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
